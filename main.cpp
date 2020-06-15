@@ -155,7 +155,7 @@ int main(int argc, char *argv[])
 
     // 最小２乗法
     std::pair<double, double> est_normal = LSM(data);
-    std::pair<double, double> est_noisy = LSM(data_addNoise);
+    std::pair<double, double> est_noisy  = LSM(data_addNoise);
 
     dr.setLineWidth(5);
 
